@@ -17,7 +17,7 @@
 
           src = pkgs.fetchzip {
             url = "https://github.com/Azure/bicep/releases/download/v${version}/bicep-langserver.zip";
-            sha256 = "";
+            sha256 = "sha256-MDm2ZKcbgfxUa7h4PrtqgmvreLqnbso1Dc6y0uvar1A=";
             stripRoot = false;
           };
 
